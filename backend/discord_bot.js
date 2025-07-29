@@ -1,0 +1,1 @@
+// Node.js bot handling bans, logs, and Discord control
