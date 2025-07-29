@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coral Reef Dev Panel</title>
+  <link href="../style.css" rel="stylesheet">
+  <script>
+    const password = "coraldev";
+    const entered = prompt("Enter developer password:");
+    if (entered !== password) {
+      alert("Access Denied");
+      window.location.href = "/";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Developer Panel</h1>
+    <p>See stats, logs, and banned users below.</p>
+    <div class="button">Hack Logs</div>
+    <div class="button">Ban List</div>
+    <div class="button">System Stats</div>
+  </div>
+</body>
+</html>
